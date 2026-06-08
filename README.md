@@ -12,14 +12,15 @@
 Trabajo Práctico Integrador de la materia Computación Aplicada. 
 Configuración y administración de un servidor GNU/Linux Debian 12.
 
-## Contenido del repositorio
+## Contenido
 
-- `root.tar.gz` — Directorio /root con archivos de configuración y material adicional
-- `etc.tar.gz` — Directorio /etc con configuraciones del sistema (red, SSH, Apache, crontab)
-- `opt.tar.gz` — Directorio /opt con el script de backup (backup_full.sh) y archivo de particiones
-- `www_dir.tar.gz` — Directorio /www_dir con index.php y logo.png servidos por Apache
-- `backup_dir.tar.gz` — Directorio /backup_dir con los backups generados
-- `var_part_aa` / `var_part_ab` — Directorio /var spliteado en partes de 50MB
+- root.tar.gz — Directorio /root con claves SSH y material adicional
+- etc.tar.gz — Configuraciones del sistema (red, SSH, Apache, fstab)
+- opt.tar.gz — Script de backup y archivo de particiones
+- www_dir.tar.gz — Archivos servidos por Apache (index.php, logo.png)
+- backup_dir.tar.gz — Backups generados
+- var_part_aa / var_part_ab — Directorio /var spliteado en partes de 50MB
+- backup_full.sh — Script de backup standalone
 
 ## Configuración implementada
 
